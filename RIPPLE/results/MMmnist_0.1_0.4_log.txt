@@ -1,0 +1,53 @@
+-1
+-2
+
+
+
+
+
+
+
+
+
+
+
+posLen : 5920
+negLen : 2865
+
+
+
+
+Building Model
+
+Using license file /home/sunshuo/gurobi.lic
+1290 (1290,)
+Solving
+
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 28 physical cores, 56 logical processors, using up to 28 threads
+Optimize a model with 53280 rows, 1290 columns and 3709134 nonzeros
+Model fingerprint: 0x9a17272d
+Coefficient statistics:
+  Matrix range     [8e-07, 6e-01]
+  Objective range  [1e-03, 1e+03]
+  Bounds range     [1e-03, 1e+00]
+  RHS range        [1e-05, 1e-05]
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Presolve removed 0 rows and 710 columns (presolve time = 6s) ...
+Presolve removed 0 rows and 710 columns
+Presolve removed 710 rows and 710 columns
+Presolve time: 8.16s
+Presolved: 580 rows, 53860 columns, 3709696 nonzeros
+
+
+Barrier performed 0 iterations in 8.34 seconds
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with dual simplex
+Solved in 4025 iterations and 8.37 seconds
+Optimal objective  3.857090766e+04
+Total time: 27.065699100494385

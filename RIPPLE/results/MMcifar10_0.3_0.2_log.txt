@@ -1,0 +1,99 @@
+-1
+-2
+
+
+
+
+
+
+
+
+
+
+
+posLen : 13087
+negLen : 6561
+
+
+
+
+Building Model
+
+Using license file /home/sunshuo/gurobi.lic
+5130 (5130,)
+Solving
+
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 28 physical cores, 56 logical processors, using up to 28 threads
+Optimize a model with 117783 rows, 5130 columns and 47935620 nonzeros
+Model fingerprint: 0x259e70a3
+Coefficient statistics:
+  Matrix range     [1e-08, 6e-01]
+  Objective range  [7e-04, 9e+02]
+  Bounds range     [1e-04, 3e+00]
+  RHS range        [1e-05, 1e-05]
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Presolve removed 0 rows and 0 columns (presolve time = 12s) ...
+Presolve removed 0 rows and 228 columns (presolve time = 21s) ...
+Presolve removed 0 rows and 228 columns (presolve time = 35s) ...
+Presolve removed 0 rows and 228 columns (presolve time = 36s) ...
+Presolve removed 0 rows and 228 columns
+Presolve removed 228 rows and 228 columns (presolve time = 6s) ...
+Presolve removed 228 rows and 228 columns (presolve time = 11s) ...
+Presolve removed 228 rows and 228 columns (presolve time = 16s) ...
+Presolve removed 228 rows and 228 columns
+Presolve time: 62.16s
+Presolved: 4902 rows, 122685 columns, 47938269 nonzeros
+
+Ordering time: 0.30s
+
+Barrier statistics:
+ AA' NZ     : 1.198e+07
+ Factor NZ  : 1.202e+07 (roughly 150 MBytes of memory)
+ Factor Ops : 3.928e+10 (roughly 1 second per iteration)
+ Threads    : 26
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   9.44724291e+06  9.68856131e+03  2.57e+05 0.00e+00  1.63e+02   109s
+   1   2.57544676e+06  1.25155476e+04  6.33e+04 6.27e-01  4.55e+01   113s
+   2   7.10187009e+05  1.73559171e+04  1.26e+04 2.24e-01  1.08e+01   117s
+   3   1.74013305e+05  2.26608314e+04  2.13e+03 4.33e-02  2.00e+00   121s
+   4   1.01452287e+05  2.95435655e+04  1.08e+03 1.93e-02  1.03e+00   125s
+   5   7.31146482e+04  3.69634490e+04  5.65e+02 1.05e-02  5.74e-01   129s
+   6   6.24475179e+04  4.07050888e+04  3.52e+02 6.71e-03  3.66e-01   133s
+   7   5.41735563e+04  4.32530105e+04  1.29e+02 3.72e-03  1.62e-01   138s
+   8   4.99862226e+04  4.53937660e+04  3.67e+01 1.19e-03  5.85e-02   143s
+   9   4.74696507e+04  4.64336319e+04  6.00e+00 1.41e-04  1.18e-02   149s
+  10   4.68371845e+04  4.65780381e+04  9.45e-01 3.87e-05  2.62e-03   153s
+  11   4.66843354e+04  4.66489881e+04  4.80e-02 1.34e-06  3.08e-04   158s
+  12   4.66638830e+04  4.66556387e+04  1.11e-02 9.22e-08  7.15e-05   162s
+  13   4.66574879e+04  4.66563407e+04  9.05e-04 1.12e-08  9.61e-06   166s
+  14   4.66567534e+04  4.66565447e+04  1.09e-04 2.32e-09  1.72e-06   170s
+  15   4.66566528e+04  4.66566273e+04  1.03e-05 4.66e-14  2.08e-07   174s
+  16   4.66566365e+04  4.66566357e+04  1.95e-07 3.95e-14  6.20e-09   177s
+  17   4.66566358e+04  4.66566358e+04  2.70e-08 4.62e-14  1.06e-10   181s
+
+Barrier solved model in 17 iterations and 180.69 seconds
+Optimal objective 4.66566358e+04
+
+Crossover log...
+
+     209 DPushes remaining with DInf 0.0000000e+00               183s
+       0 DPushes remaining with DInf 0.0000000e+00               185s
+
+       7 PPushes remaining with PInf 0.0000000e+00               185s
+       0 PPushes remaining with PInf 0.0000000e+00               185s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 1.0655973e-12    186s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+     215    4.6656636e+04   0.000000e+00   0.000000e+00    193s
+
+Solved with barrier
+Solved in 215 iterations and 193.64 seconds
+Optimal objective  4.665663576e+04
+Total time: 288.6773374080658

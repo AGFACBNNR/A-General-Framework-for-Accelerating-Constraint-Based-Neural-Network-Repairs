@@ -1,0 +1,406 @@
+../../formal/networks/normmnist_adv.onnx
+../../formal/networks/normmnist_adv.onnx
+How many rows of Table 1 to generate (1, 2, 3, or 4): ../../formal/networks/normmnist_adv.onnx
+~~~~ Points: 100000 ~~~~
+:::: Layer: 6 ::::
+Using license file /home/sunshuo/gurobi.lic
+Changed value of parameter TimeLimit to 600000.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Changed value of parameter Crossover to 0
+   Prev: -1  Min: -1  Max: 5  Default: -1
+Changed value of parameter Method to 2
+   Prev: -1  Min: -1  Max: 5  Default: -1
+../../formal/networks/normmnist_adv.onnx
+../../formal/networks/normmnist_adv.onnx
+../../formal/networks/normmnist_adv.onnx
+~~~~ Points: 100000 ~~~~
+:::: Layer: 6 ::::
+Using license file /home/sunshuo/gurobi.lic
+Changed value of parameter TimeLimit to 600000.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Changed value of parameter Crossover to 0
+   Prev: -1  Min: -1  Max: 5  Default: -1
+Changed value of parameter Method to 2
+   Prev: -1  Min: -1  Max: 5  Default: -1
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 28 physical cores, 56 logical processors, using up to 28 threads
+Optimize a model with 385424 rows, 147713 columns and 585563488 nonzeros
+Model fingerprint: 0xd780bfeb
+Coefficient statistics:
+  Matrix range     [1e-09, 6e+00]
+  Objective range  [1e-05, 1e+00]
+  Bounds range     [3e+00, 3e+00]
+  RHS range        [3e-05, 4e+01]
+Presolve removed 0 rows and 0 columns (presolve time = 50s) ...
+Presolve removed 0 rows and 0 columns (presolve time = 73s) ...
+Presolve removed 0 rows and 0 columns (presolve time = 165s) ...
+../../formal/networks/normmnist_adv.onnx
+~~~~ Points: 100000 ~~~~
+:::: Layer: 8 ::::
+Using license file /home/sunshuo/gurobi.lic
+Changed value of parameter TimeLimit to 600000.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Changed value of parameter Crossover to 0
+   Prev: -1  Min: -1  Max: 5  Default: -1
+Changed value of parameter Method to 2
+   Prev: -1  Min: -1  Max: 5  Default: -1
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 28 physical cores, 56 logical processors, using up to 28 threads
+Optimize a model with 95160 rows, 2581 columns and 6222156 nonzeros
+Model fingerprint: 0x028acd24
+Coefficient statistics:
+  Matrix range     [4e-06, 2e+01]
+  Objective range  [8e-04, 1e+00]
+  Bounds range     [3e+00, 3e+00]
+  RHS range        [3e-05, 4e+01]
+Presolve time: 2.07s
+Presolved: 2581 rows, 97741 columns, 6224737 nonzeros
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 1.772e+05
+ Factor NZ  : 1.823e+05 (roughly 40 MBytes of memory)
+ Factor Ops : 6.855e+07 (less than 1 second per iteration)
+ Threads    : 28
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -8.68785992e+04  7.51161890e-01  4.88e+02 6.85e-01  1.38e+00     3s
+   1  -2.11884370e+04  9.83624441e+00  1.15e+02 6.59e+00  3.86e-01     3s
+   2  -6.44670891e+03  1.02866863e+01  3.28e+01 4.46e+00  1.52e-01     4s
+   3  -2.33059306e+03  8.18486763e+00  1.03e+01 3.18e+00  7.31e-02     4s
+   4  -1.23130414e+03  6.85915076e+00  4.94e+00 1.84e+00  4.22e-02     4s
+   5  -3.61891925e+02  5.90146812e+00  1.06e+00 9.16e-01  1.98e-02     4s
+   6  -1.45673339e+02  5.40212099e+00  5.14e-01 4.21e-01  9.14e-03     4s
+   7   1.16564565e+02  5.06275547e+00  4.45e-02 1.17e-01  2.39e-03     4s
+   8   2.46334847e+02  4.81653472e+00  3.24e-02 5.34e-02  4.31e-04     5s
+   9   4.65415979e+02  4.77791863e+00  3.09e-02 5.27e-02  5.01e-04     5s
+  10   3.21000004e+03  4.62119592e+00  2.74e-02 5.01e-02  2.79e-04     5s
+  11   5.15702407e+05  4.61908620e+00  2.58e-02 5.01e-02  7.06e-03     5s
+  12   3.66791297e+08  4.61840704e+00  2.30e-02 5.00e-02  2.64e+00     5s
+  13  -8.68793503e+08 -0.00000000e+00  4.88e+06 1.94e+01  1.01e+06     6s
+  14  -1.66744740e+08  1.56152587e+02  9.05e+05 1.33e+02  5.61e+04     7s
+  15  -1.80229665e+07  8.62784323e+01  9.78e+04 6.42e+01  2.94e+03     7s
+  16  -4.82414330e+06  9.77467767e+00  2.62e+04 1.27e+01  2.41e+02     7s
+  17  -1.11031934e+06  6.43992490e+00  6.03e+03 4.87e+00  3.29e+01     7s
+  18  -5.21111287e+05  5.50184350e+00  2.83e+03 2.66e+00  1.11e+01     7s
+  19  -2.17012168e+05  5.24113991e+00  1.18e+03 1.47e+00  4.13e+00     8s
+  20  -7.55159004e+04  5.15917594e+00  4.10e+02 1.24e+00  2.79e+00     8s
+  21  -5.36703720e+04  4.92876131e+00  2.91e+02 7.51e-01  3.59e+00     8s
+  22   1.23585250e+02  4.91153194e+00  0.00e+00 6.05e-01  1.62e+02     8s
+  23*  1.18864164e+08  4.91148873e+00  2.74e-03 3.26e-04  5.12e-04     8s
+  24*  1.73233045e+12  4.91295065e+00  2.44e-04 1.92e-08  3.23e-08     9s
+
+Barrier performed 24 iterations in 8.60 seconds
+Unbounded model
+
+Not optimal!
+Model status: 4
+~~~~ Results ~~~~
+Max size of repair set: 10000
+Size of drawdown set: 10000
+Buggy network repair set accuracy: 29.92
+Buggy network drawdown set accuracy: 28.37
+~~~~~ Points: 10000 ~~~~~
+../../formal/networks/cifar10_adv.onnx
+~~~~ Points: 100000 ~~~~
+:::: Layer: 14 ::::
+Using license file /home/sunshuo/gurobi.lic
+Changed value of parameter TimeLimit to 600000.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Changed value of parameter Crossover to 0
+   Prev: -1  Min: -1  Max: 5  Default: -1
+Changed value of parameter Method to 2
+   Prev: -1  Min: -1  Max: 5  Default: -1
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 28 physical cores, 56 logical processors, using up to 28 threads
+Optimize a model with 470520 rows, 10261 columns and 128273490 nonzeros
+Model fingerprint: 0x77b61fbb
+Coefficient statistics:
+  Matrix range     [2e-07, 4e+01]
+  Objective range  [2e-04, 1e+00]
+  Bounds range     [3e+00, 3e+00]
+  RHS range        [1e-06, 1e+02]
+Presolve removed 0 rows and 0 columns (presolve time = 34s) ...
+Presolve removed 0 rows and 0 columns (presolve time = 62s) ...
+Presolve removed 0 rows and 0 columns (presolve time = 90s) ...
+Presolve removed 0 rows and 0 columns (presolve time = 103s) ...
+Presolve removed 0 rows and 0 columns (presolve time = 108s) ...
+Presolve time: 165.38s
+Presolved: 10261 rows, 480781 columns, 128283751 nonzeros
+Ordering time: 0.12s
+
+Barrier statistics:
+ AA' NZ     : 1.193e+07
+ Factor NZ  : 1.214e+07 (roughly 300 MBytes of memory)
+ Factor Ops : 3.977e+10 (roughly 1 second per iteration)
+ Threads    : 28
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -8.31451074e+03  7.50292341e-01  1.03e+03 1.11e+00  1.57e+00   250s
+   1  -6.21456556e+03  7.87115897e+00  5.10e+02 1.08e+01  1.00e+00   261s
+   2  -4.54615224e+03  1.18749976e+01  1.92e+02 6.46e+00  6.47e-01   271s
+   3  -8.09238460e+03  3.92121015e+00  4.31e+01 4.02e+00  3.88e-01   282s
+   4  -3.61212672e+03  3.34454370e+00  1.25e+00 3.33e-01  3.81e-02   292s
+   5   2.22781808e+02  3.32481417e+00  2.08e-01 1.27e-01  1.40e-02   303s
+   6   4.55644932e+03  3.33301573e+00  5.19e-02 6.95e-02  8.87e-03   314s
+   7   1.51127099e+04  3.33621848e+00  3.54e-02 5.67e-02  8.58e-03   325s
+   8   5.60184788e+04  3.33541699e+00  3.19e-02 5.33e-02  1.18e-02   338s
+   9   1.11375171e+05  3.33492892e+00  3.05e-02 5.22e-02  1.43e-02   348s
+  10   3.08082895e+05  3.33428279e+00  2.93e-02 5.12e-02  1.93e-02   359s
+  11  -8.31526095e+07 -0.00000000e+00  1.03e+07 2.02e+01  9.99e+05   378s
+  12  -9.72218464e+07  5.39948507e+02  4.73e+06 6.62e+02  7.03e+05   388s
+  13  -1.07353417e+08  6.34139231e+02  1.07e+06 5.56e+02  4.97e+05   397s
+  14  -1.30671630e+08  2.81599435e+01  0.00e+00 9.21e+01  9.33e+04   405s
+  15  -1.05579197e+08  6.22987422e+00  0.00e+00 8.59e+00  8.88e+03   414s
+  16  -8.41692281e+07  5.52638827e+00  0.00e+00 3.69e+00  3.88e+03   422s
+  17  -6.59480145e+07  4.90236254e+00  0.00e+00 1.52e+00  1.66e+03   430s
+  18  -3.80557542e+07  4.54926859e+00  0.00e+00 7.11e-01  7.95e+02   437s
+  19  -1.55818700e+07  4.39902505e+00  0.00e+00 3.54e-01  3.93e+02   446s
+  20  -6.35139439e+06  4.33674430e+00  0.00e+00 2.21e-01  2.44e+02   453s
+  21   6.17181381e+06  4.29329623e+00  0.00e+00 1.29e-01  1.37e+02   462s
+  22   1.68188121e+07  4.28290136e+00  0.00e+00 8.15e-02  8.51e+01   472s
+  23   3.61899153e+07  4.29177138e+00  0.00e+00 7.07e-02  8.36e+01   483s
+  24   1.04632217e+08  4.29468245e+00  0.00e+00 6.67e-02  1.07e+02   495s
+  25   2.70438889e+08  4.29337598e+00  0.00e+00 6.41e-02  1.33e+02   507s
+  26   3.32675555e+08  4.29271556e+00  0.00e+00 6.29e-02  9.79e+01   517s
+  27   4.23643408e+08  4.29189290e+00  0.00e+00 6.26e-02  8.58e+01   527s
+  28   5.46379602e+08  4.29077045e+00  0.00e+00 6.26e-02  8.57e+01   538s
+  29  -8.31526095e+07 -0.00000000e+00  1.03e+07 2.02e+01  9.99e+05   561s
+  30  -9.23481494e+05  4.88965788e+00  1.03e+05 4.20e+00  7.32e+01   578s
+  31  -1.40963029e+05  5.79474781e+00  1.57e+04 1.85e+00  1.81e+01   589s
+  32  -1.49351188e+04  4.96332564e+00  1.66e+03 4.68e-01  6.36e+00   613s
+  33   2.88325476e+03  5.60440854e+00  0.00e+00 2.73e-01  8.49e+02   634s
+  34*  2.85384097e+09  5.60440910e+00  3.66e-03 6.16e-05  9.06e-05   654s
+  35*  2.85672756e+15  5.60351846e+00  3.35e-03 5.91e-11  8.46e-11   676s
+
+Barrier performed 35 iterations in 675.58 seconds
+Unbounded model
+
+Not optimal!
+Model status: 4
+~~~~ Results ~~~~
+Max size of repair set: 50000
+Size of drawdown set: 10000
+Buggy network repair set accuracy: 34.388
+Buggy network drawdown set accuracy: 35.96
+~~~~~ Points: 50000 ~~~~~
+../../formal/networks/mnist_poisoned.onnx
+~~~~ Points: 100000 ~~~~
+:::: Layer: 8 ::::
+Using license file /home/sunshuo/gurobi.lic
+Changed value of parameter TimeLimit to 600000.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Changed value of parameter Crossover to 0
+   Prev: -1  Min: -1  Max: 5  Default: -1
+Changed value of parameter Method to 2
+   Prev: -1  Min: -1  Max: 5  Default: -1
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 28 physical cores, 56 logical processors, using up to 28 threads
+Optimize a model with 545160 rows, 2581 columns and 36457386 nonzeros
+Model fingerprint: 0xfc872fab
+Coefficient statistics:
+  Matrix range     [1e-05, 1e+02]
+  Objective range  [8e-04, 1e+00]
+  Bounds range     [3e+00, 3e+00]
+  RHS range        [2e-03, 2e+02]
+Presolve removed 0 rows and 0 columns (presolve time = 8s) ...
+Presolve time: 12.12s
+Presolved: 2581 rows, 547741 columns, 36459967 nonzeros
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 6.363e+05
+ Factor NZ  : 6.603e+05 (roughly 230 MBytes of memory)
+ Factor Ops : 4.879e+08 (less than 1 second per iteration)
+ Threads    : 28
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -2.66109297e+05  7.51161890e-01  2.87e+03 3.19e-01  6.16e-01    20s
+   1  -6.24443825e+04  4.92700792e+00  6.70e+02 3.25e+00  1.52e-01    21s
+   2  -1.20910933e+04  5.61608272e+00  1.27e+02 2.46e+00  3.25e-02    23s
+   3  -1.69575620e+03  4.66508410e+00  1.66e+01 6.72e-01  4.85e-03    24s
+   4  -2.03044797e+02  4.21057642e+00  1.86e+00 4.70e-02  5.74e-04    25s
+   5  -3.07051684e+01  2.71796629e+00  2.89e-01 1.00e-02  9.22e-05    26s
+   6  -5.25144349e+00  1.66888703e+00  5.34e-02 4.85e-03  1.86e-05    27s
+   7  -2.46596096e+00  9.04410320e-01  2.52e-02 1.95e-03  9.10e-06    28s
+   8  -7.27524105e-01  5.85599091e-01  7.06e-03 1.37e-03  3.21e-06    29s
+   9  -3.83035286e-01  4.14145046e-01  3.54e-03 9.64e-04  1.82e-06    30s
+  10  -1.83396874e-01  2.85076927e-01  1.72e-03 5.74e-04  9.88e-07    31s
+  11  -1.52452169e-01  2.41164866e-01  1.49e-03 4.42e-04  8.11e-07    32s
+  12  -4.93236252e-02  2.03618957e-01  7.88e-04 3.24e-04  5.00e-07    33s
+  13   2.29308100e-02  1.62008080e-01  3.76e-04 1.78e-04  2.63e-07    34s
+  14   6.30190380e-02  1.39067091e-01  1.82e-04 9.56e-05  1.40e-07    35s
+  15   8.07022996e-02  1.28484922e-01  1.12e-04 5.70e-05  8.63e-08    36s
+  16   9.12836011e-02  1.24004623e-01  7.34e-05 3.84e-05  5.88e-08    37s
+  17   1.04379670e-01  1.19794960e-01  2.90e-05 2.18e-05  2.76e-08    38s
+  18   1.09767927e-01  1.17918843e-01  1.28e-05 1.39e-05  1.46e-08    39s
+  19   1.11778159e-01  1.16441275e-01  7.27e-06 7.51e-06  8.35e-09    40s
+  20   1.12970690e-01  1.15973189e-01  4.10e-06 5.48e-06  5.39e-09    40s
+  21   1.14013146e-01  1.15514397e-01  1.50e-06 3.48e-06  2.71e-09    42s
+  22   1.14440022e-01  1.15002222e-01  4.50e-07 1.25e-06  1.02e-09    43s
+  23   1.14547043e-01  1.14776999e-01  2.75e-07 2.53e-07  4.13e-10    44s
+  24   1.14649140e-01  1.14743608e-01  1.06e-07 1.10e-07  1.70e-10    44s
+  25   1.14692441e-01  1.14725424e-01  3.66e-08 3.32e-08  5.93e-11    45s
+  26   1.14713102e-01  1.14718679e-01  5.45e-09 4.77e-09  1.01e-11    46s
+  27   1.14717182e-01  1.14717535e-01  2.56e-10 1.78e-11  6.27e-13    47s
+  28   1.14717504e-01  1.14717526e-01  3.08e-11 3.67e-14  2.53e-14    48s
+  29   1.14717527e-01  1.14717526e-01  4.94e-11 3.55e-14  9.64e-18    49s
+
+Barrier solved model in 29 iterations and 49.34 seconds
+Optimal objective 1.14717527e-01
+
+~~~~ Results ~~~~
+Max size of repair set: 60000
+Size of drawdown set: 10000
+Buggy network repair set accuracy: 98.98833333333333
+Buggy network drawdown set accuracy: 10.38
+~~~~~ Points: 60000 ~~~~~
+	Best drawdown: -80.73
+	Total time for best drawdown (seconds): 95.21982362493873
+~~~~ Results ~~~~
+Max size of repair set: 60000
+Size of drawdown set: 10000
+Buggy network repair set accuracy: 98.98833333333333
+Buggy network drawdown set accuracy: 98.63
+~~~~~ Points: 60000 ~~~~~
+	Best drawdown: 0.44999999999998863
+	Total time for best drawdown (seconds): 95.21982362493873
+~~~~ Results ~~~~
+Max size of repair set: 60000
+Size of drawdown set: 10000
+Buggy network repair set accuracy: 98.98833333333333
+Buggy network drawdown set accuracy: 10.38
+~~~~~ Points: 60000 ~~~~~
+	Best drawdown: -80.73
+	Total time for best drawdown (seconds): 95.21982362493873
+~~~~ Results ~~~~
+Max size of repair set: 60000
+Size of drawdown set: 10000
+Buggy network repair set accuracy: 98.98833333333333
+Buggy network drawdown set accuracy: 98.63
+~~~~~ Points: 60000 ~~~~~
+	Best drawdown: 0.44999999999998863
+	Total time for best drawdown (seconds): 95.21982362493873
+~~~~ Results ~~~~
+Max size of repair set: 60000
+Size of drawdown set: 10000
+Buggy network repair set accuracy: 98.98833333333333
+Buggy network drawdown set accuracy: 10.38
+~~~~~ Points: 60000 ~~~~~
+	Best drawdown: -80.73
+	Total time for best drawdown (seconds): 95.21982362493873
+~~~~ Results ~~~~
+Max size of repair set: 60000
+Size of drawdown set: 10000
+Buggy network repair set accuracy: 98.98833333333333
+Buggy network drawdown set accuracy: 98.63
+~~~~~ Points: 60000 ~~~~~
+	Best drawdown: 0.44999999999998863
+	Total time for best drawdown (seconds): 95.21982362493873
+../../formal/networks/mnist_poisoned.onnx
+../../formal/networks/mnist_poisoned.onnx
+~~~~ Points: 100000 ~~~~
+../../formal/networks/mnist_poisoned.onnx
+~~~~ Points: 100000 ~~~~
+../../formal/networks/mnist_poisoned.onnx
+~~~~ Points: 100000 ~~~~
+../../formal/networks/mnist_poisoned.onnx
+~~~~ Points: 100000 ~~~~
+:::: Layer: 6 ::::
+Using license file /home/sunshuo/gurobi.lic
+Changed value of parameter TimeLimit to 600000.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Changed value of parameter Crossover to 0
+   Prev: -1  Min: -1  Max: 5  Default: -1
+Changed value of parameter Method to 2
+   Prev: -1  Min: -1  Max: 5  Default: -1
+../../formal/networks/cifar10_poisoned.onnx
+~~~~ Points: 100000 ~~~~
+../../formal/networks/cifar10_poisoned.onnx
+~~~~ Points: 100000 ~~~~
+:::: Layer: 14 ::::
+Using license file /home/sunshuo/gurobi.lic
+Changed value of parameter TimeLimit to 600000.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Changed value of parameter Crossover to 0
+   Prev: -1  Min: -1  Max: 5  Default: -1
+Changed value of parameter Method to 2
+   Prev: -1  Min: -1  Max: 5  Default: -1
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 28 physical cores, 56 logical processors, using up to 28 threads
+Optimize a model with 470520 rows, 10261 columns and 59771070 nonzeros
+Model fingerprint: 0x31d757a8
+Coefficient statistics:
+  Matrix range     [7e-07, 5e+01]
+  Objective range  [2e-04, 1e+00]
+  Bounds range     [3e+00, 3e+00]
+  RHS range        [2e-04, 1e+02]
+Presolve removed 0 rows and 0 columns (presolve time = 6s) ...
+Presolve removed 0 rows and 0 columns (presolve time = 14s) ...
+Presolve removed 0 rows and 0 columns (presolve time = 15s) ...
+Presolve time: 20.37s
+Presolved: 10261 rows, 480781 columns, 59781331 nonzeros
+Ordering time: 0.05s
+
+Barrier statistics:
+ AA' NZ     : 6.928e+06
+ Factor NZ  : 7.784e+06 (roughly 260 MBytes of memory)
+ Factor Ops : 1.984e+10 (less than 1 second per iteration)
+ Threads    : 28
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   1.14839881e+04  7.50292341e-01  1.03e+03 1.82e+00  2.30e+00    41s
+   1   4.07543925e+03  1.08945777e+01  4.73e+02 1.46e+01  1.38e+00    44s
+   2   1.85648668e+02  1.54525265e+01  1.49e+02 1.02e+01  9.32e-01    47s
+   3  -4.17170457e+03  4.98960912e+00  2.11e+01 5.83e+00  5.39e-01    50s
+   4  -2.54293370e+03  3.85337767e+00  3.64e+00 1.41e+00  1.35e-01    54s
+   5   2.87074862e+02  3.65361585e+00  7.71e-02 2.95e-01  2.91e-02    57s
+   6   2.28518114e+03  3.62930777e+00  2.03e-02 1.43e-01  1.37e-02    60s
+   7   4.24347396e+03  3.62381041e+00  9.51e-03 8.42e-02  7.33e-03    63s
+   8   1.59305055e+04  3.63862581e+00  1.50e-03 5.88e-02  6.02e-03    66s
+   9   8.80056502e+04  3.65601358e+00  9.70e-04 5.25e-02  9.25e-03    70s
+  10   5.51831222e+05  3.65714302e+00  8.85e-04 5.08e-02  1.87e-02    73s
+  11   2.80413307e+06  3.66068961e+00  8.48e-04 5.05e-02  5.98e-02    76s
+  12   3.79029127e+06  3.66526251e+00  8.47e-04 5.03e-02  3.46e-02    79s
+  13   1.14832379e+08 -0.00000000e+00  1.03e+07 1.16e+02  9.93e+05    85s
+  14  -2.77501266e+08  6.13793851e+02  3.16e+06 5.88e+02  6.63e+05    88s
+  15  -4.31214586e+08  3.04514481e+02  1.08e+02 4.18e+02  4.49e+05    91s
+  16  -3.76460747e+08  2.50207739e+01  0.00e+00 2.84e+01  3.11e+04    94s
+  17  -1.88626106e+08  1.17234863e+01  0.00e+00 9.96e+00  1.04e+04    97s
+  18  -1.34148167e+08  8.08893962e+00  0.00e+00 4.42e+00  5.00e+03    99s
+  19  -7.56690494e+07  6.57948814e+00  0.00e+00 2.45e+00  2.75e+03   102s
+  20  -2.39071688e+07  5.96181521e+00  0.00e+00 1.78e+00  1.84e+03   104s
+  21   6.24217739e+06  4.86225309e+00  0.00e+00 3.05e-01  3.32e+02   107s
+  22   3.16242546e+07  4.72870854e+00  0.00e+00 1.24e-01  1.21e+02   111s
+  23   6.10042452e+07  4.71673395e+00  0.00e+00 1.05e-01  1.25e+02   113s
+  24   9.18455894e+07  4.72208794e+00  0.00e+00 9.75e-02  1.51e+02   116s
+  25   1.09761179e+08  4.72264522e+00  0.00e+00 9.44e-02  1.41e+02   119s
+  26   1.20921695e+08  4.72309628e+00  0.00e+00 9.23e-02  1.28e+02   121s
+  27   1.28750348e+08  4.72376929e+00  0.00e+00 8.95e-02  1.20e+02   125s
+  28   1.62179629e+08  4.72411210e+00  0.00e+00 8.82e-02  1.25e+02   128s
+  29   2.03091700e+08  4.72479558e+00  0.00e+00 8.67e-02  1.24e+02   132s
+  30   2.41237282e+08  4.72516793e+00  0.00e+00 8.77e-02  1.13e+02   135s
+  31   3.10148538e+08  4.72558458e+00  0.00e+00 8.72e-02  1.05e+02   138s
+  32   1.14832379e+08 -0.00000000e+00  1.03e+07 1.16e+02  9.93e+05   144s
+  33   4.05983690e+06  5.86374567e+01  3.61e+05 9.52e+01  6.58e+03   148s
+  34   1.84168565e+05  2.71731465e+01  1.64e+04 1.97e+01  2.73e+02   152s
+  35   3.06562436e+04  7.74257427e+00  2.73e+03 2.45e+00  1.41e+01   157s
+  36   3.56905961e+01  5.59409550e+00  0.00e+00 3.94e-01  4.11e+00   160s
+  37*  2.19695489e+07  5.59408564e+00  1.06e-03 3.89e-02  6.38e-02   163s
+  38*  1.57923973e+13  5.59408431e+00  1.23e-03 5.41e-08  8.89e-08   166s
+
+Barrier performed 38 iterations in 165.80 seconds
+Unbounded model
+
+Not optimal!
+Model status: 4
+~~~~ Results ~~~~
+Max size of repair set: 50000
+Size of drawdown set: 10000
+Buggy network repair set accuracy: 96.972
+Buggy network drawdown set accuracy: 15.89
+~~~~~ Points: 50000 ~~~~~

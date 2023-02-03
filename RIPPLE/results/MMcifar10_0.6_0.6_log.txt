@@ -1,0 +1,104 @@
+-1
+-2
+
+
+
+
+
+
+
+
+
+
+
+posLen : 26174
+negLen : 19683
+
+
+
+
+Building Model
+
+Using license file /home/sunshuo/gurobi.lic
+5130 (5130,)
+Solving
+
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 28 physical cores, 56 logical processors, using up to 28 threads
+Optimize a model with 235566 rows, 5130 columns and 96498720 nonzeros
+Model fingerprint: 0xe2b673dd
+Coefficient statistics:
+  Matrix range     [2e-09, 6e-01]
+  Objective range  [6e-03, 2e+03]
+  Bounds range     [1e-04, 3e+00]
+  RHS range        [1e-05, 1e-05]
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Presolve removed 0 rows and 0 columns (presolve time = 11s) ...
+Presolve removed 0 rows and 222 columns (presolve time = 27s) ...
+Presolve removed 0 rows and 222 columns (presolve time = 38s) ...
+Presolve removed 0 rows and 222 columns
+Presolve removed 0 rows and 0 columns (presolve time = 11s) ...
+Presolve removed 222 rows and 222 columns (presolve time = 16s) ...
+Presolve removed 222 rows and 222 columns (presolve time = 24s) ...
+Presolve removed 222 rows and 222 columns (presolve time = 33s) ...
+Presolve removed 222 rows and 222 columns (presolve time = 36s) ...
+Presolve removed 222 rows and 222 columns
+Presolve time: 87.39s
+Presolved: 4908 rows, 240474 columns, 96500739 nonzeros
+
+Ordering time: 0.17s
+
+Barrier statistics:
+ AA' NZ     : 1.202e+07
+ Factor NZ  : 1.205e+07 (roughly 200 MBytes of memory)
+ Factor Ops : 3.942e+10 (roughly 1 second per iteration)
+ Threads    : 26
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   4.00953471e+07  2.95778373e+04  8.29e+05 0.00e+00  3.74e+02   143s
+   1   1.37947463e+07  4.04807749e+04  2.74e+05 6.91e-01  1.34e+02   148s
+   2   4.21338338e+06  5.07379027e+04  7.26e+04 3.23e-01  3.92e+01   154s
+   3   1.34285997e+06  6.58368172e+04  1.76e+04 1.13e-01  1.06e+01   161s
+   4   4.24146772e+05  8.09063543e+04  4.53e+03 2.74e-02  2.80e+00   169s
+   5   2.50767793e+05  9.57100397e+04  2.19e+03 1.11e-02  1.40e+00   176s
+   6   1.94321192e+05  1.10391680e+05  1.29e+03 6.51e-03  8.61e-01   183s
+   7   1.68119297e+05  1.20249055e+05  7.17e+02 3.70e-03  5.05e-01   191s
+   8   1.51283632e+05  1.26288619e+05  2.70e+02 1.39e-03  2.23e-01   198s
+   9   1.40082844e+05  1.29804357e+05  8.02e+01 3.21e-04  7.80e-02   205s
+  10   1.35140378e+05  1.30748314e+05  3.13e+01 1.06e-04  3.19e-02   212s
+  11   1.32610884e+05  1.31113833e+05  8.69e+00 3.15e-05  9.99e-03   221s
+  12   1.31620491e+05  1.31239537e+05  1.85e+00 7.00e-06  2.38e-03   229s
+  13   1.31383059e+05  1.31276558e+05  4.16e-01 1.81e-06  6.21e-04   236s
+  14   1.31328895e+05  1.31288669e+05  1.40e-01 4.01e-07  2.27e-04   243s
+  15   1.31304751e+05  1.31292029e+05  4.26e-02 9.36e-08  7.09e-05   249s
+  16   1.31295923e+05  1.31292911e+05  8.71e-03 2.77e-08  1.62e-05   256s
+  17   1.31293669e+05  1.31293205e+05  8.71e-04 6.71e-09  2.29e-06   261s
+  18   1.31293325e+05  1.31293304e+05  3.31e-05 3.95e-11  1.02e-07   267s
+  19   1.31293307e+05  1.31293307e+05  1.86e-06 3.54e-13  2.77e-09   274s
+
+Barrier solved model in 19 iterations and 273.87 seconds
+Optimal objective 1.31293307e+05
+
+Crossover log...
+
+     342 DPushes remaining with DInf 0.0000000e+00               279s
+     224 DPushes remaining with DInf 0.0000000e+00               282s
+     110 DPushes remaining with DInf 0.0000000e+00               287s
+       0 DPushes remaining with DInf 0.0000000e+00               291s
+
+      32 PPushes remaining with PInf 1.9218462e-06               291s
+       0 PPushes remaining with PInf 0.0000000e+00               291s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 2.2663007e-12    292s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+     375    1.3129331e+05   0.000000e+00   0.000000e+00    314s
+
+Solved with barrier
+Solved in 375 iterations and 314.65 seconds
+Optimal objective  1.312933069e+05
+Total time: 567.015212059021

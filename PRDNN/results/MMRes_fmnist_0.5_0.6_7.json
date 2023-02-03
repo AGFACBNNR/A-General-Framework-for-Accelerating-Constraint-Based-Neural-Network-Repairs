@@ -1,0 +1,13 @@
+{
+      "Time": 504.6853650249541,
+      "before": {
+            "train_corrupted": 26.14035087719298,
+            "test_identity": 87.87,
+            "test_corrupted": 31.979999999999997
+      },
+      "after": {
+            "train_corrupted": 100.0,
+            "test_identity": 84.78,
+            "test_corrupted": 50.33
+      }
+}
